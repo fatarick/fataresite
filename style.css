@@ -81,6 +81,32 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 0;
   }
+
+  #srccodeintr {
+    text-align: center;
+  }
+
+  #srccodeintr p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+  }
+  
+  #srccode {
+    display: flex;
+    justify-content: center;
+    background-color: #8096ac; /* set the background color */
+    padding: 10px 20px; /* set the padding */
+    border: none; /* remove the border */
+    border-radius: 5px; /* add rounded corners */
+    cursor: pointer; /* set the cursor to pointer when hovering over the button */
+    font-size: 16px; /* set the font size */
+  }
+
+  
+
+  
+  
   
 
   
