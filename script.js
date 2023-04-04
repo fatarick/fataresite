@@ -38,6 +38,47 @@ function redirectToSB() {
   window.location.href = "https://fatarick.github.io/2dskycrapersimulator/";
 }
 
+const sbuildsc = document.getElementById("sbsc");
+
+sbuildsc.addEventListener("click", redirectToSBSC);
+
+function redirectToSBSC() {
+  window.location.href = "https://github.com/fatarick/2dskycrapersimulator";
+}
+
+const sitesc1 = document.getElementById("sitesc");
+
+sitesc1.addEventListener("click", redirectToSSC);
+
+function redirectToSSC() {
+  window.location.href = "https://github.com/fatarick/fataresite";
+}
+
+const aisc = document.getElementById("fgsc");
+
+aisc.addEventListener("click", redirectToFGSC);
+
+function redirectToFGSC() {
+  window.location.href = "https://github.com/fatarick/FatGPT";
+}
+
+const notchsc = document.getElementById("ncsc");
+
+notchsc.addEventListener("click", redirectToNotchSC);
+
+function redirectToNotchSC() {
+  window.location.href = "https://github.com/fatarick/notchcustomiser";
+}
+
+const dsbsc = document.getElementById("dsbotsc");
+
+notchsc.addEventListener("click", redirectToDBotSC);
+
+function redirectToDBotSC() {
+  window.location.href = "https://github.com/fatarick/FatareBot2C";
+}
+
+
 const discord = document.getElementById("discord");
 
 discord.addEventListener("click", redirectToDS);
@@ -53,5 +94,3 @@ telega.addEventListener("click", redirectToTG);
 function redirectToTG() {
   window.location.href = "https://t.me/+_Awa7acaMnUzOTU0";
 }
-
-
