@@ -1,11 +1,3 @@
-const ai = document.getElementById("ai");
-
-ai.addEventListener("click", redirectToAI);
-
-function redirectToAI() {
-  window.location.href = "http://fatarick.pythonanywhere.com/";
-}
-
 const fos = document.getElementById("fos");
 
 fos.addEventListener("click", redirectToFOS);
