@@ -94,6 +94,22 @@ function redirectToFsdgSC() {
   window.location.href = "https://github.com/fatarick/FatCisDisGPT";
 }
 
+const tts = document.getElementById("tts");
+
+tts.addEventListener("click", redirectToTTS);
+
+function redirectToTTS() {
+  window.location.href = "https://fatarick.github.io/fataretts/";
+}
+
+const ttssc = document.getElementById("tts");
+
+ttssc.addEventListener("click", redirectToTTSSC);
+
+function redirectToTTSSC() {
+  window.location.href = "https://github.com/fatarick/fataretts";
+}
+
 
 const discord = document.getElementById("discord");
 
