@@ -103,18 +103,10 @@ function redirectToTTSSC() {
 }
 
 
-const discord = document.getElementById("discord");
+const noteB = document.getElementById("note")
 
-discord.addEventListener("click", redirectToDS);
+noteB.addEventListener("click", redirectToNote)
 
-function redirectToDS() {
-  window.location.href = "https://discord.gg/RfmJQfu2yW";
-}
-
-const telega = document.getElementById("telega");
-
-telega.addEventListener("click", redirectToTG);
-
-function redirectToTG() {
-  window.location.href = "https://t.me/+_Awa7acaMnUzOTU0";
+function redirectToNote() {
+  window.location.href = "https://github.com/fatarick/stupidNote";
 }
