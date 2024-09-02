@@ -90,7 +90,7 @@ const tts = document.getElementById("tts");
 
 tts.addEventListener("click", redirectToTTS);
 
-const ttssc = document.getElementById("tts");
+const ttssc = document.getElementById("fctts");
 
 ttssc.addEventListener("click", redirectToTTSSC);
 
