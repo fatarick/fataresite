@@ -51,7 +51,7 @@ const aisc = document.getElementById("fgsc");
 aisc.addEventListener("click", redirectToFGSC);
 
 function redirectToFGSC() {
-  window.location.href = "https://github.com/fatarick/FatCisGPT";
+  window.location.href = "https://github.com/FatCisDev/FatCisGPT";
 }
 
 const notchsc = document.getElementById("ncsc");
@@ -67,7 +67,7 @@ const dsbsc = document.getElementById("dsbotsc");
 notchsc.addEventListener("click", redirectToDBotSC);
 
 function redirectToDBotSC() {
-  window.location.href = "https://github.com/fatarick/FatCisBot2C";
+  window.location.href = "https://github.com/FatCisDev/FatCisBot2C";
 }
 
 const fcdsc = document.getElementById("fcd");
@@ -75,7 +75,7 @@ const fcdsc = document.getElementById("fcd");
 fcdsc.addEventListener("click", redirectToFsdSC);
 
 function redirectToFsdSC() {
-  window.location.href = "https://github.com/fatarick/fatcisdos";
+  window.location.href = "https://github.com/FatCisDev/fatcisdos";
 }
 
 const fcdgsc = document.getElementById("fcdg");
@@ -83,16 +83,12 @@ const fcdgsc = document.getElementById("fcdg");
 fcdgsc.addEventListener("click", redirectToFsdgSC);
 
 function redirectToFsdgSC() {
-  window.location.href = "https://github.com/fatarick/FatCisDisGPT";
+  window.location.href = "https://github.com/FatCisDev/FatCisDisGPT";
 }
 
 const tts = document.getElementById("tts");
 
 tts.addEventListener("click", redirectToTTS);
-
-function redirectToTTS() {
-  window.location.href = "https://fatarick.github.io/fataretts/";
-}
 
 const ttssc = document.getElementById("tts");
 
