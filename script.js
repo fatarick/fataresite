@@ -91,7 +91,7 @@ const ttssc = document.getElementById("fctts");
 ttssc.addEventListener("click", redirectToTTSSC);
 
 function redirectToTTSSC() {
-  window.location.href = "https://github.com/fatarick/fataretts";
+  window.location.href = "https://github.com/FatCisDev/fatcistts";
 }
 
 
