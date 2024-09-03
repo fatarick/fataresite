@@ -102,3 +102,11 @@ noteB.addEventListener("click", redirectToNote)
 function redirectToNote() {
   window.location.href = "https://github.com/fatarick/stupidNote";
 }
+
+const RSnoteB = document.getElementById("note")
+
+RSnoteB.addEventListener("click", redirectToRSNote)
+
+function redirectToRSNote() {
+  window.location.href = "https://github.com/fatarick/ReallyStupidNote";
+}
